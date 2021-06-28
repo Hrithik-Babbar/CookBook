@@ -1,0 +1,47 @@
+body {
+
+background: url('https://gomohealth.com/wp-content/uploads/2018/10/Healthy-Food-Wood-Gradient-Background.jpg') no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+    
+}
+
+#container{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+#container div{
+    margin: 10px 10px;
+}
+#container div p{
+    color: ghostwhite;
+    text-align: center;
+    margin: 0px;
+    font-size: 20px;
+    font-weight: bold;
+}
+#container div img{
+    width: 312px;
+    height: 231px;
+}
+nav{
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+}
+button{
+    background-color: cadetblue;
+}
+header{
+    margin-top: 10px;
+    text-align: center;
+    font-size: xx-large;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+i{
+    margin-left: 5px;
+}
